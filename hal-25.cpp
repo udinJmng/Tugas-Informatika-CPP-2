@@ -14,7 +14,7 @@ cin >> teks2;
 depan = strlen(teks1);
 kel = strlen(teks2);
 huruf = depan + kel;
-
+cout << "Debug huruf " << huruf << '\n';
 cout << "Nama lengkap anda " << teks1 << " " << teks2 << "\n";
 
     return 0;
